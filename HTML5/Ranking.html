@@ -1,0 +1,181 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>YFJM Videojuegos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../Estilos/Estilos7.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<main>
+		<h1><div>
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="600px" height="100px" viewBox="0 0 600 100">
+<style type="text/css">
+
+<![CDATA[
+
+	text {
+		filter: url(#filter);
+		fill: white;
+    	font-family: 'Share Tech Mono', sans-serif;
+    	font-size: 100px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+     		}
+]]>
+</style>
+	<defs>
+
+		<filter id="filter">
+		    <feFlood flood-color="black" result="black" />
+		    <feFlood flood-color="red" result="flood1" />
+		    <feFlood flood-color="limegreen" result="flood2" />
+			<feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+			<feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+			<feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+			<feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+		    <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+		    <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+
+ 		  	<feMerge x="0" width="100%" result="merge1">
+				<feMergeNode in = "black" />
+				<feMergeNode in = "comp1" />
+				<feMergeNode in = "off1b" />
+
+				<animate 
+					attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		
+		    		values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h" 
+		    		dur ="4s"
+		    		
+		    		values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+ 			
+
+ 			<feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+				<feMergeNode in = "black" />
+				<feMergeNode in = "comp2" />
+				<feMergeNode in = "off2b" />
+
+				<animate attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' 
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+
+ 		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h"
+		    		dur = "4s"
+					
+					values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+		    		 
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+			
+		 	<feMerge>
+ 				<feMergeNode in="SourceGraphic" />	
+
+				<feMergeNode in="merge1" /> 
+ 			<feMergeNode in="merge2" />
+
+		    </feMerge>
+	    </filter>
+
+	</defs>
+
+<g>
+	<text x="0" y="100">Ranking</text>
+</g>
+</svg></h1>
+		<section id="seccion">
+		<main>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<header>
+		<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+  		<a button type="button" class="btn btn-dark" href="../index.html">Inicio</a button>
+  		<a button type="button" class="btn btn-dark" href="MortalKombat.html">Mortal Kombat</a button>
+  		<a button type="button" class="btn btn-dark" href="HTML5/GTAV.html">GTA V</a button>
+  		<a button type="button" class="btn btn-dark" href="Gearsofwar.html">Gears of War</a button>
+  		<a button type="button" class="btn btn-dark" href="Halo.html">Halo</a button>
+
+  		<div class="btn-group" role="group">
+    	<button id="btnGroupDrop1" type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      	Mas</button>
+    	<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      	<a class="dropdown-item" href="Criticas.html">Criticas</a>
+      	<a class="dropdown-item" href="Formulario.html">Comentarios</a>
+    </div>
+  </div>
+</div>
+	</header>
+	<section>
+		<article>
+			<br>
+			<img src="../Imagenes/Top1.JPG" id="Ima1" align="left">
+			<h5><li>1 Fortnite</h5>
+			Tras meses de exclusividad para móviles con iOS, Fortnite ahora también está disponible para descargar en Android, aunque no es oro todo lo que reluce. Como se anunció durante el lanzamiento del Galaxy Note 9, Fortnite para Android estará limitado (al menos inicialmente) a aquellos que tengan un Samsung Galaxy S7 o superior.
+
+			Si tienes un  smartphone o tablet Samsung Galaxy, podrás acceder al mismo Battle Royale para 100 jugadores que está disponible tanto para ordenadores como videoconsolas con un nivel similar de calidad visual.
+
+			Si has estado viviendo en una cueva durante el último año y no conoces Fortnite, el concepto es simple: baja a tierra, busca armas y materiales y, usando una combinación de artesanía y tiro, lucha para ser el último jugador en pie.
+
+			Fortnite es posiblemente el juego más popular de Battle Royale, su calidad y continuas actualizaciones nos hacen entender por qué.</br><br>
+			<img src="../Imagenes/Top2.JPG" id="Ima2" align="left">
+			<h5><li>2 PUBG</h5>
+			¿Realmente PUBG Mobile necesita una introducción? El exitoso juego battle royale que salió a la venta en 2017 ya está disponible en formato móvil tanto para los jugadores de iOS como para los de Android.
+
+			A diferencia de la variante de PC y consola que te costará 26,99 €, la variante móvil es gratuita para jugar con un montón de IAPs, aunque estos se limitan exclusivamente a la vestimenta y apariencia de tu personaje.
+
+			Pero mientras algunos asumen que la experiencia es pobre en un dispositivo móvil, el juego móvil de F2P en realidad cuenta con mecanismos que nos encantaría ver transferidos al juego principal.
+
+			Más notablemente, durante el saqueo, los accesorios y objetos útiles serán recogidos y equipados automáticamente - ideal para aquellos que no están seguros de la miríada de accesorios de armas disponibles en PUBG.
+
+			Aparte de la estupenda mecánica, el tirador no es tan difícil de usar como algunos se imaginan. Por supuesto, tiene una curva de aprendizaje, pero una vez que te acostumbras a la posición de los controles en pantalla y la mecánica de movimiento, todo fluirá con normalidad.</br><br>
+			<img src="../Imagenes/Top4.JPG" id="Ima4" align="left">
+			<h5><li>3 Minecraft</h5>
+			Otro de los juegos para Android que resultará de lo más apetecible para grandes y pequeños, es sin duda Minecraft Pocket Edition, la versión para smartphones del famoso juego de ordenador Minecraft.
+
+			No es gratis, pero su precio es bastante razonable para las horas de diversión de las que podrás disfrutar gracias a él.
+
+			Si todavía no has oído hablar de Minecraft sal de la cueva en la que vives: es uno de los juegos más famosos de la historia.
+
+			En él podrás construir sin límites. Todo lo que pienses podrá ser construido. Así que además de diversión es creativo y educacional. Increíble, ¿no?</br><br>
+			<img src="../Imagenes/Top3.JPG" id="Ima3" align="left">
+			<h5><li>4 Free Fire</h5>
+			Free Fire es el último juego de sobrevivencia disponible en dispositivos móviles. Cada juego de 10 minutos te pondrá en una isla remota con otros 49 jugadores buscando sobrevivir. Los jugadores podrán elegir con libertad su punto de partida usando su paracaídas y deberán mantenerse en la zona segura el mayor tiempo posible. Podrán conducir vehículos para explorar el mapa, crear estrategias para esconderse o usar objetos para camuflajearse. Embosca y apunta, sólo hay un objetivo: sobrevivir.</br><br>
+			<img src="../Imagenes/Top5.JPG" id="Ima5" align="left">
+			<h5><li>5 Call of Duty</h5>
+			Los jugadores pueden elegir jugar partidas clasificadas o no clasificadas en el modo multijugador. Tiene dos tipos de monedas en el juego: "Créditos", que se obtienen jugando, y "Puntos COD", que deben comprarse con dinero del mundo real. Es posible jugar el juego completo sin pagar, aunque algunos aspectos exclusivos de personajes y armas solo se pueden comprar con Puntos COD.4​  Además del emparejamiento estándar, también se puede acceder a una sala privada para los modos multijugador y Battle Royale, donde los jugadores pueden invitar y luchar solo con sus amigos en el juego. Además, el juego presenta modos multijugador permanentes y modos limitados y especiales que pueden durar días, semanas o una temporada completa.</br>
+		</article>
+	</section>
+	</section>
+		<aside id="lateral">
+			<img src="../Imagenes/Win.GIF" id="MKLateral">
+			<blockquote></blockquote>
+		</aside>
+			<footer id="pie">Derechos reservados &copy; Yaneth YAFEJUME 2021</footer>
+	</div>
+	</main>
+</body>
+</html>

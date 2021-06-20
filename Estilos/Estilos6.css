@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #000000;
+	background-image: url("../Imagenes/Fondo.GIF"); 
+	font-family: "segoe UI";
+	text-align: justify;
+}
+.info {
+  color: white;
+  font:1em/1 sans-serif;
+  text-align: center;
+}
+.info a{
+  color: white;
+}
+svg{
+  width: 1300px;
+  height: 120px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
+}
+h1{
+	font-size: 72px;  
+	background: -webkit-linear-gradient(left top, #0000FF, #FF0000);
+	background: linear-gradient(to bottom right, #0000FF, #FF0000);
+	-webkit-background-clip: text;  
+	-webkit-text-fill-color: transparent; 
+	text-shadow: 18px 10px 35px #000000;
+	margin-bottom: 3px;
+	text-align: center;
+	column-span: all;
+}
+#seccion{
+	padding: 8px;
+	text-align: justify;
+	float: left;
+	width: 950px;
+	margin: 20px;
+	margin-left: 30px;
+	background: #66FF00;
+	clear: left;
+}
+a{
+	margin-right: 0px;
+	height: 50px;
+}
+#lateral{
+	float: left;
+	width: 325px;
+	margin: 20px 0px;
+	margin-left: 0px;
+	padding: 15px;
+	background: #000000;
+	text-align: justify;
+	color: #FFFFFF;
+	box-shadow: 10px 10px 15px #66FF00, 10px 10px 15px #66FF00 inset;
+}
+#pie{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 5px solid #00FF33;
+	color: #FFFFFF;
+}
+#Game{
+	width: 300px;
+	height: 250px;
+	float: center;
+}
+.contacto h2, .contacto label{
+	font-family: Georgia, Times, "Times Nem Roman", sans-serif;
+
+}
+.contacto ul{
+	width: 750px;
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0px;
+	padding: 0px;
+}
+.contacto li{
+	padding: 12px;
+	position: relative;
+}
+.contacto h2{
+	margin: 0px;
+	display: inline;
+}
+.contacto label{
+	width: 150px;
+	margin-top: 3px;
+	display: inline-block;
+	float: left;
+	padding: 3px;
+}
+.contacto input{
+	height: 20px;
+	width: 220px;
+	padding: 5px 8px;
+}
+.contacto textarea{
+	padding: 8px;
+	width: 300px;
+}
+
+.contacto input, .contacto textarea{
+	border: 1px solid #006600;
+	box-shadow: 5px 5px 3px #336600, 0px 0px 15px #336600 inset;
+	border-radius: 5px; 
+}
+.envia, .borra, .inicia{
+	border: 2px solid #006600;
+	background: #009900;
+	color: #FFFFFF;
+	border-radius: 10px;
+	width: 200px;
+	box-shadow: 5px 5px 3px #336600, 5px 5px 5px #336600 inset;
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	font: bold 15px verdana, sans-serif;
+	text-align: center;
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>YFJM Videojuegos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../Estilos/Estilos3.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<main>
+		<h1><div>
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="600px" height="100px" viewBox="0 0 600 100">
+<style type="text/css">
+
+<![CDATA[
+
+	text {
+		filter: url(#filter);
+		fill: white;
+    	font-family: 'Share Tech Mono', sans-serif;
+    	font-size: 100px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+     		}
+]]>
+</style>
+	<defs>
+
+		<filter id="filter">
+		    <feFlood flood-color="black" result="black" />
+		    <feFlood flood-color="red" result="flood1" />
+		    <feFlood flood-color="limegreen" result="flood2" />
+			<feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+			<feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+			<feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+			<feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+		    <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+		    <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+
+ 		  	<feMerge x="0" width="100%" result="merge1">
+				<feMergeNode in = "black" />
+				<feMergeNode in = "comp1" />
+				<feMergeNode in = "off1b" />
+
+				<animate 
+					attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		
+		    		values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h" 
+		    		dur ="4s"
+		    		
+		    		values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+ 			
+
+ 			<feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+				<feMergeNode in = "black" />
+				<feMergeNode in = "comp2" />
+				<feMergeNode in = "off2b" />
+
+				<animate attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' 
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+
+ 		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h"
+		    		dur = "4s"
+					
+					values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+		    		 
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+			
+		 	<feMerge>
+ 				<feMergeNode in="SourceGraphic" />	
+
+				<feMergeNode in="merge1" /> 
+ 			<feMergeNode in="merge2" />
+
+		    </feMerge>
+	    </filter>
+
+	</defs>
+
+<g>
+	<text x="0" y="100">Grand Theft Auto</text>
+</g>
+</svg></h1>
+		<section id="seccion">
+		<main>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<header>
+		<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+  		<a button type="button" class="btn btn-dark" href="../index.html">Inicio</a button>
+  		<a button type="button" class="btn btn-dark" href="MortalKombat.html">Mortal Kombat</a button>
+  		<a button type="button" class="btn btn-dark" href="Gearsofwar.html">Gears of War</a button>
+  		<a button type="button" class="btn btn-dark" href="Halo.html">Halo</a button>
+
+  		<div class="btn-group" role="group">
+    	<button id="btnGroupDrop1" type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      	Mas</button>
+    	<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+    	<a class="dropdown-item" href="Criticas.html">Criticas</a>
+      	<a class="dropdown-item" href="Ranking.html">Ranking</a>
+      	<a class="dropdown-item" href="Formulario.html">Comentarios</a>
+    </div>
+  </div>
+</div>
+	</header>
+	<section>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="../Imagenes/GTA1.JPG" class="d-block w-100" alt="uno">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="../Imagenes/GTA2.JPG" class="d-block w-100" alt="dos">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="../Imagenes/GTA3.JPG" class="d-block w-100" alt="tres">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+		<article id="Desc">
+			<h5>Historia</h5>
+			Grand Theft Auto V, comúnmente abreviado como GTA V, es la decimoquinta entrega de la saga Grand Theft Auto que fue lanzado el 17 de septiembre de 2013 para las consolas Xbox 360 y PlayStation 3. Su juego predecesor es Grand Theft Auto: The Ballad of Gay Tony, lanzado para las mismas plataformas. Es la segunda entrega de la saga para consolas de "última generación", con mejoras gráficas muy notables, un mundo Sandbox más grande y realista, motor físico anteriormente utilizado para GTA IV. Superó en una semana y media los mil millones de dólares acumulados, también nombrado el juego del año en primer lugar.
+
+			Tras debutar en la séptima generación de consolas en 2013, se re-estrenó un año después en la siguiente generación con algunas mejoras. Además, el 11 de junio de 2020 Sony confirmó que también formará parte del catálogo de PlayStation 5 en 2021.[1]
+
+			La historia transcurre en la remodelada ciudad de Los Santos, donde Michael, Trevor y Franklin trabajan individualmente hasta que se cruzan sus vidas y empiezan a trabajar en equipo robando bancos o realizando trabajos para diversos personajes.
+			<h5>Descripcion</h5>
+			Los Santos: una extensa metrópolis llena de gurús de autoayuda, aspirantes a estrellas y famosos en decadencia tratando de mantenerse a flote en una era de incertidumbre económica y tele por cable barata. En medio de esta confusión, tres criminales muy distintos lo arriesgan todo en una serie de audaces y peligrosos asaltos que podrían solucionarles la vida.
+			En medio de esta confusión, tres criminales muy distintos calculan sus probabilidades de supervivencia y de éxito: Franklin, un maleante callejero en busca de verdaderas oportunidades para conseguir mucho dinero; Michael, un ex convicto cuyo retiro es menos idílico de lo que había esperado; y Trevor, un maníaco violento motivado por la posibilidad de encontrar drogas baratas y el próximo gran asalto. Al quedarse sin opciones, este grupo lo arriesga todo en una serie de audaces y peligrosos asaltos que podrían solucionarles la vida.
+
+			Grand Theft Auto V es el juego de mundo abierto más grande, más dinámico y más diverso jamás creado. Combina la historia y la jugabilidad de un modo nuevo, mientras los jugadores entran y salen repetidamente de las vidas de los tres personajes principales. Gracias a esta dinámica, participan en todos los aspectos de la historia entrelazada del juego.
+
+			Los sellos de esta innovadora saga están presentes en todo el juego, desde una increíble atención en los detalles hasta el oscuro sentido del humor de Grand Theft Auto sobre la cultura moderna. Además, el multijugador de mundo abierto tiene un enfoque nuevo y más ambicioso.
+		</article>
+	</section>
+	</section>
+		<aside id="lateral">
+			<img src="../Imagenes/GTA5.GIF" id="MKLateral">
+			<blockquote>Es el juego más caro de la historia, con un gasto de 265 millones de dólares, superando a su antecesor GTA IV —100 millones. Grand Theft Auto V recaudó 800 millones de dólares en las primeras 24 horas de su estreno,10​ lo que lo convirtió en el videojuego que más dinero había recaudado en menos tiempo de toda la historia; y había recaudado en 3 días un monto récord de 1000 millones de dólares en ventas.</br></blockquote>
+		</aside>
+			<footer id="pie">Derechos reservados &copy; Yaneth YAFEJUME 2021</footer>
+	</div>
+	</main>
+</body>
+</html>

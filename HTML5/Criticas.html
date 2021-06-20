@@ -1,0 +1,189 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>YFJM Videojuegos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../Estilos/Estilos8.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<main>
+		<h1><div>
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="600px" height="100px" viewBox="0 0 600 100">
+<style type="text/css">
+
+<![CDATA[
+
+	text {
+		filter: url(#filter);
+		fill: white;
+    	font-family: 'Share Tech Mono', sans-serif;
+    	font-size: 100px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+     		}
+]]>
+</style>
+	<defs>
+
+		<filter id="filter">
+		    <feFlood flood-color="black" result="black" />
+		    <feFlood flood-color="red" result="flood1" />
+		    <feFlood flood-color="limegreen" result="flood2" />
+			<feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+			<feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+			<feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+			<feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+		    <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+		    <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+
+ 		  	<feMerge x="0" width="100%" result="merge1">
+				<feMergeNode in = "black" />
+				<feMergeNode in = "comp1" />
+				<feMergeNode in = "off1b" />
+
+				<animate 
+					attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		
+		    		values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h" 
+		    		dur ="4s"
+		    		
+		    		values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+ 			
+
+ 			<feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+				<feMergeNode in = "black" />
+				<feMergeNode in = "comp2" />
+				<feMergeNode in = "off2b" />
+
+				<animate attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' 
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+
+ 		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h"
+		    		dur = "4s"
+					
+					values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+		    		 
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+			
+		 	<feMerge>
+ 				<feMergeNode in="SourceGraphic" />	
+
+				<feMergeNode in="merge1" /> 
+ 			<feMergeNode in="merge2" />
+
+		    </feMerge>
+	    </filter>
+
+	</defs>
+
+<g>
+	<text x="0" y="100">Criticas</text>
+</g>
+</svg></h1>
+		<section id="seccion">
+		<main>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<header>
+		<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+  		<a button type="button" class="btn btn-dark" href="../index.html">Inicio</a button>
+  		<a button type="button" class="btn btn-dark" href="MortalKombat.html">Mortal Kombat</a button>
+  		<a button type="button" class="btn btn-dark" href="HTML5/GTAV.html">GTA V</a button>
+  		<a button type="button" class="btn btn-dark" href="Gearsofwar.html">Gears of War</a button>
+  		<a button type="button" class="btn btn-dark" href="Halo.html">Halo</a button>
+
+  		<div class="btn-group" role="group">
+    	<button id="btnGroupDrop1" type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      	Mas</button>
+    	<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      	<a class="dropdown-item" href="Ranking.html">Ranking</a>
+      	<a class="dropdown-item" href="Formulario.html">Comentarios</a>
+    </div>
+  </div>
+</div>
+	</header>
+	<section>
+		<article id="Secciones">
+			<img src="../Imagenes/Edu2.JPG" id="Ima2" align="left">Con el avance tecnológico de los últimos años, se ha producido un profundo cambio en la sociedad, que incide en prácticamente todos los ámbitos de la vida. En concreto, se ha abierto un debate entorno a los videojuegos, ya que de una manera u otra influyen en las familias, la educación de los niños, en su ocio y en la distribución de su tiempo.
+
+			En este sentido, Sonsoles Vidal, abogada y autora de diferentes estudios sobre menores -como «Menores violentos, ¿un tema menor? Violencia filioparental y uso indebido de la tecnología-, y los portavoces de la Asociación Española de Videojuegos (AEVI), exponen diferentes argumentos sobre la influencia del uso de videojuegos en el comportamiento y aprendizaje de los niños.
+
+			<h4>A favor de los videojuegos</h4>
+			<img src="../Imagenes/Edu.PNG" id="Ima1" align="left">
+			Por un lado, los portavoces de AEVI apuestan por el uso de videojuegos, ya que mejoran las capacidades y habilidades de los niños e, incluso, son útiles para regenerar los métodos educativos. Los portavoces de esta asociación están convencidos de que la combinación del juego con la educación favorece la adquisición de conocimientos y el desarrollo de competencias. «Se ha demostrado que el cerebro está predispuesto para un aprendizaje más rápido con juegos que con libros», aseguran los expertos.
+
+			<li>Los videojuegos mejoran las habilidades cognitivas de los menores; desarrollan su inventiva, creatividad y la capacidad intelectual y de análisis.</li>
+
+			<li>Les motivan para superar retos, lo que incrementa su motivación y compromiso.</li>
+
+			<li>El uso frecuente de los mismos enriquece la capacidad de lógica, de deducción y el razonamiento, aumenta su orientación espacial y, además, se observan mejores resultados en matemáticas de los adolescentes que los utilizan.</li><img src="../Imagenes/Edu3.JPG" id="Ima3" align="left">
+
+			<li>Se puede aprovechar su parte educativa y su parte lúdica para estimular a los niños, por lo que son herramientas óptimas por su inmersión en cualquier tipo de actividad.</li>
+
+			<li>Son útiles de cara a acelerar y mejorar el proceso de adquisición de contenidos.</li>
+
+			<li>Potencian la agilidad mental, la toma de decisiones y la capacidad para resolver conflictos. Además, permiten comparar diferentes estrategias y consecuencias de las decisiones tomadas.</li>
+
+			<li>Ayudan a incrementar los reflejos, la coordinación y la confianza.</li>
+
+			<h4>En contra de los videojuegos</h4>
+			Por otro lado, Sonsoles Vidal afirma que los videojuegos son uno de los agentes que separan a los niños de la familia, en una etapa tan determinante para su educación. Además, «los videojuegos, como cualquier otro tipo de juego, crean adicción. No se trata únicamente del juego en sí o de los contenidos, sino del tiempo dedicado, que se deja de invertir en otras cosas. Esto tiene consecuencias negativas, sobre todo en personas que están aún en desarrollo», explica Sonsoles. Aun así, la experta indica que el principal problema radica en la falta de control parental y que muchos de estos juegos pueden aumentar diferentes capacidades y habilidades en los niños.
+
+			<li>Los videojuegos van en detrimento de los deberes escolares y, en muchos casos, influyen en el fracaso escolar, ya que se produce un rechazo al colegio por parte del adolescente.</li>
+
+			<li>Son adictivos y pueden provocar evasión en el niño e, incluso, favorecer la irritabilidad, la ansiedad y reacciones agresivas por la dependencia que estos juegos generan.</li>
+
+			<li>Inciden en que los niños salgan menos de sus habitaciones o que, directamente, se encierren. Pueden acabar perdiendo el interés por otro tipo de actividades, lo que implica una descompensación en sus prioridades, costumbres y relaciones.</li>
+
+			<li>Generan una mala comunicación con los padres y hacen que el menor se acostumbre a no dar explicaciones y a no expresar sus emociones en familia.</li>
+
+			<li>Pueden provocar un ambiente hostil y subidas del tono de voz en casa.</li>
+
+			<li>También, afectan a las amistades, que pueden quedar descuidadas o deterioradas.</li>
+
+			<li>El menor puede sufrir cansancio diurno y somnolencia. Durante el día, es posible que no pueda afrontar tareas productivas por la falta de concentración y atención.</li>
+
+			<li>Además, se acentúan las inhibiciones y los rasgos de personalidades inseguras, y se generan dificultades en competencia social.</li><img src="../Imagenes/Edu4.JPG" id="Ima4" align="left">
+
+			<li>Los videojuegos crean problemas para acatar las normas y límites establecidos por los padres, precisamente por la inmersión en el juego y la adicción que generan.</li>
+
+			<li>Actualmente, estos juegos se presentan en formato online. Cada vez, los padres tienen menos información sobre cómo se entretienen sus hijos porque ya no son ellos los que los compran.</li>
+		</article>
+	</section>
+	</section>
+		<aside id="lateral">
+			<img src="../Imagenes/Dance.GIF" id="Pacman">
+			<blockquote></blockquote>
+		</aside>
+			<footer id="pie">Derechos reservados &copy; Yaneth YAFEJUME 2021</footer>
+	</div>
+	</main>
+</body>
+</html>
